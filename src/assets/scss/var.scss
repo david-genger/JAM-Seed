@@ -1,0 +1,39 @@
+//colors
+
+$black: #000;
+
+//durations
+
+$hover-duration: 180ms;
+
+//fonts
+
+$default-font: normal 16px sans, Verdana;
+
+
+//Media Queries
+
+$laptop-15:1500px;
+$laptop-13:1300px;
+
+$tablet-ladscape:1024px;
+$tablet-potriat: 768px;
+
+$mobile:560px;
+
+ @mixin image-ratio($width, $height) {
+    position: relative;
+    &:before {
+      display: block;
+      content: "";
+      width: 100%;
+      padding-top: ($height / $width) * 100%;
+    }
+    > *:first-child {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
