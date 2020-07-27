@@ -39,7 +39,7 @@
     "handlebars-helper-repeat": "^1.0.0",
     "handlebars-helpers": "^0.9.8",
     "http-server": "^0.10.0",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "jquery-modal": "^0.9.1",
     "jquery-validation": "^1.17.0",
     "jstransformer-handlebars": "^1.0.0",
