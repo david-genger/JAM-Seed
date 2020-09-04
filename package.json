@@ -58,7 +58,7 @@
     "metalsmith-permalinks": "^0.5.0",
     "metalsmith-prismic": "^0.10.0",
     "metalsmith-timer": "0.0.2",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "path": "^0.12.7",
     "postcss-browser-reporter": "^0.5.0",
     "postcss-cssnext": "^3.0.2",
